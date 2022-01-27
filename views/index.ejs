@@ -1,0 +1,18 @@
+<div>
+    <a href="http://localhost:7799/">Home</a>
+           <a href="http://localhost:7799/addpost">Add Post</a>
+    <form className="container" method="post" action="/postdata">
+<div class="mb-3">
+<label for="title" class="form-label">Title</label>
+<input type="text" class="form-control" id="title" name="title" ref={titleInp}/>
+
+
+</div>
+<div class="mb-3">
+<label for="des" class="form-label">Description</label>
+<textarea type="text" class="form-control" id="des" name="des" ref={desInp}></textarea>
+</div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
